@@ -13,11 +13,34 @@ function App() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-
       <div>
         <a href="https://github.com">GitHub</a>
         <a href="https://linkedin.com">LinkedIn</a>
       </div>
+      <form>
+        <label htmlFor="name">Name:</label>
+        <input id="name" name="name" type="text" />
+        <br />
+        <label htmlFor="email">Email:</label>
+        <input id="email" name="email" type="email" />
+        <br />
+        <label>
+          <input name="pepperoni" type="checkbox" />
+          Add Pepperoni
+        </label>
+        <br />
+        <label>
+          <input name="mushrooms" type="checkbox" />
+          Add Mushrooms
+        </label>
+        <br />
+        <label>
+          <input name="onions" type="checkbox" />
+          Add Onions
+        </label>
+        <br />
+        <button type="submit">Submit</button>
+      </form>
     </main>
   );
 }
